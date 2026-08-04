@@ -16,8 +16,12 @@ const handler = createMcpHandler(
       headers: "Content-Type, Mcp-Session-Id, Mcp-Protocol-Version, Accept",
       exposeHeaders: "Mcp-Session-Id",
     },
+    // Host ammessi, come protezione contro il DNS rebinding.
+    // Deve includere sia il dominio finale sia l'endpoint workers.dev usato
+    // per i test: se un host manca, il server risponde 403 "Invalid Host".
     allowedHostnames: [
       "mcp.dalpralab.it",
+      "mcp-dalpralab.massimilianodalpra.workers.dev",
       "localhost",
       "127.0.0.1",
     ],
