@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "versione": "0.2-bozza",
+    "aggiornato": "2026-08-04",
+    "valuta": "EUR",
+    "note_iva": "Tutti i prezzi sono IVA esclusa.",
+    "fonte": "Prezzi verificati sulle pagine pubbliche di dalpralab.it il 4 agosto 2026.",
+    "da_approvare": true
+  },
+  "servizi": [
+    {
+      "id": "geoaudit-gratuito",
+      "nome": "GeoAudit — analisi GEO gratuita",
+      "categoria": "audit",
+      "descrizione_breve": "Analisi automatica gratuita della visibilità del sito nelle AI, con punteggio e problemi principali.",
+      "prezzo": 0,
+      "unita": "una_tantum",
+      "include": [
+        "Punteggio GEO del sito da 0 a 100",
+        "Elenco dei problemi critici e dei warning",
+        "Referto ricevuto via email, senza carta di credito"
+      ],
+      "url_pagina": "https://geoaudit.dalpralab.it"
+    },
+    {
+      "id": "georestore",
+      "nome": "GeoRestore — ripristino GEO completo",
+      "categoria": "audit",
+      "descrizione_breve": "Intervento una tantum che rende il sito leggibile e citabile dai motori generativi in 5 giorni lavorativi.",
+      "prezzo": 249,
+      "unita": "una_tantum",
+      "include": [
+        "Sblocco dei crawler AI: GPTBot, ClaudeBot, PerplexityBot, Google-Extended",
+        "Schema JSON-LD completo: Organization, LocalBusiness, entità strutturate",
+        "FAQ strutturate in formato domanda-risposta leggibile dalle AI",
+        "llms.txt e robots.txt ottimizzati per i crawler generativi",
+        "Segnali E-E-A-T: autore, contatti, partita IVA, pagine di fiducia",
+        "Risoluzione dei problemi di velocità e Core Web Vitals",
+        "Analisi GeoAudit completa e verifica finale del punteggio"
+      ],
+      "tempi": "5 giorni lavorativi",
+      "pagamento": "Anche a rate con Klarna e PayPal",
+      "url_pagina": "https://dalpralab.it/prodotto/georestore-ripristino-geo-completo/"
+    },
+    {
+      "id": "cowork-geo",
+      "nome": "Cowork GEO",
+      "categoria": "geo",
+      "descrizione_breve": "Abbonamento mensile di lavoro continuativo sulla visibilità del brand nei motori generativi.",
+      "prezzo": 400,
+      "unita": "mensile",
+      "include": [
+        "Contenuti nuovi ottimizzati per la GEO ogni mese",
+        "Monitoraggio continuo della visibilità nelle AI",
+        "Aggiornamento di schema ed entità",
+        "Report mensile di posizionamento GEO"
+      ],
+      "note": "Disdicibile in qualsiasi momento.",
+      "url_pagina": "https://dalpralab.it/georestore/"
+    },
+    {
+      "id": "geo-seo",
+      "nome": "GEO & SEO",
+      "categoria": "retainer",
+      "descrizione_breve": "Retainer mensile sul posizionamento: prima pagina su Google e citazioni nelle risposte AI.",
+      "prezzo": 800,
+      "unita": "mensile",
+      "include": [
+        "Strategia SEO e GEO dedicata",
+        "SEO tecnica e on-page",
+        "Contenuti ottimizzati per motori di ricerca e assistenti AI",
+        "Posizionamento nelle risposte AI",
+        "Report mensile sui risultati"
+      ],
+      "url_pagina": "https://dalpralab.it/grow-partner/"
+    },
+    {
+      "id": "ecommerce-growth",
+      "nome": "E-commerce Growth",
+      "categoria": "retainer",
+      "descrizione_breve": "Retainer mensile per e-commerce: posizionamento più conversioni, campagne e automazioni.",
+      "prezzo": 1000,
+      "unita": "mensile",
+      "include": [
+        "Tutti i servizi del pacchetto GEO & SEO",
+        "Ottimizzazione conversioni e performance dello shop",
+        "Campagne pubblicitarie e funnel di vendita",
+        "Email e automazioni di recupero",
+        "Monitoraggio mensile della crescita"
+      ],
+      "url_pagina": "https://dalpralab.it/grow-partner/"
+    },
+    {
+      "id": "grow-partner",
+      "nome": "Grow Partner",
+      "categoria": "retainer",
+      "descrizione_breve": "Direzione strategica come responsabile interno, senza limiti tra le attività. L'obiettivo è il fatturato.",
+      "prezzo": 1499,
+      "unita": "mensile",
+      "include": [
+        "Nessun limite tra le attività: SEO, GEO, e-commerce, ads, contenuti",
+        "CRM Enterprise incluso con gestione clienti e automazioni",
+        "Direzione strategica come responsabile interno",
+        "Obiettivo unico: crescita del fatturato"
+      ],
+      "url_pagina": "https://dalpralab.it/grow-partner/"
+    },
+    {
+      "id": "white-label",
+      "nome": "SEO e GEO in white label per agenzie",
+      "categoria": "seo",
+      "descrizione_breve": "Reparto SEO/GEO esterno per agenzie web, di design e di comunicazione, a marchio dell'agenzia.",
+      "prezzo": null,
+      "prezzo_testo": "A progetto, su preventivo. Budget definito anno per anno, nessun retainer a tempo indeterminato.",
+      "unita": "a_progetto",
+      "include": [
+        "SEO tecnica e on-page: audit, architettura, performance, contenuti conformi alle linee guida di Google",
+        "GEO per ChatGPT, Gemini, Perplexity e AI Overview di Google",
+        "Content strategy: piani editoriali e articoli basati su ricerca keyword",
+        "Plugin e automazioni AI su misura"
+      ],
+      "durata": "Collaborazioni da 12 mesi: i risultati si manifestano tra il sesto e il dodicesimo mese.",
+      "url_pagina": "https://dalpralab.it/white-label/"
+    }
+  ],
+  "catalogo_esteso": {
+    "descrizione": "Oltre ai servizi principali, DalPraLab pubblica un listino esteso con centinaia di servizi digitali a prezzo trasparente.",
+    "url": "https://dalpralab.it/prezzi/",
+    "pagine": [
+      { "titolo": "Quanto costa un sito web", "url": "https://dalpralab.it/quanto-costa-sito-web/" },
+      { "titolo": "Quanto costa un e-commerce", "url": "https://dalpralab.it/quanto-costa-ecommerce/" },
+      { "titolo": "Quanto costa la SEO", "url": "https://dalpralab.it/quanto-costa-seo/" },
+      { "titolo": "Quanto costa la GEO", "url": "https://dalpralab.it/quanto-costa-geo/" },
+      { "titolo": "Quanto costa un chatbot AI", "url": "https://dalpralab.it/quanto-costa-chatbot-ai/" }
+    ]
+  }
+}

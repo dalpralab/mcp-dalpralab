@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "nota": "Fasce di disponibilità usate quando l'integrazione Google Calendar non è attiva, e griglia di partenza da cui sottrarre gli impegni quando lo è. Rispecchiano la pagina pubblica di prenotazione: lun-ven 9:00-18:00, call da 20 minuti.",
+    "timezone": "Europe/Rome"
+  },
+  "durata_minuti": 20,
+  "anticipo_minimo_ore": 24,
+  "orizzonte_giorni_default": 14,
+  "max_slot_restituiti": 10,
+  "max_slot_per_giorno": 3,
+  "fasce_settimanali": [
+    { "giorno": 1, "da": "09:00", "a": "13:00" },
+    { "giorno": 1, "da": "14:00", "a": "18:00" },
+    { "giorno": 2, "da": "09:00", "a": "13:00" },
+    { "giorno": 2, "da": "14:00", "a": "18:00" },
+    { "giorno": 3, "da": "09:00", "a": "13:00" },
+    { "giorno": 3, "da": "14:00", "a": "18:00" },
+    { "giorno": 4, "da": "09:00", "a": "13:00" },
+    { "giorno": 4, "da": "14:00", "a": "18:00" },
+    { "giorno": 5, "da": "09:00", "a": "13:00" },
+    { "giorno": 5, "da": "14:00", "a": "18:00" }
+  ],
+  "link_prenotazione": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ2JHPd6yG4iQCTa0HRw3ilD2u6AZIKD3QKHyNZiKCVGieWsHaIKam38ZzLbMGjHT0yHAZBCGvex",
+  "nota_per_utente": "Gli slot indicati sono fasce di disponibilità tipiche, non prenotazioni confermate. Puoi prenotare direttamente dalla pagina di prenotazione, oppure usare richiedi_audit e verrai ricontattato."
+}

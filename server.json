@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "it.dalpralab/consulenza-seo-geo",
+  "description": "Servizi, prezzi, case study e disponibilita del consulente SEO e GEO DalPraLab.",
+  "version": "1.0.0",
+  "websiteUrl": "https://dalpralab.it/mcp/",
+  "repository": {
+    "url": "https://github.com/dalpralab/mcp-dalpralab",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dalpralab.it/mcp"
+    }
+  ]
+}

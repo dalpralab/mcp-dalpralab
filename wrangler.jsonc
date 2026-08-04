@@ -1,0 +1,33 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mcp-dalpralab",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "vars": {
+    "ENVIRONMENT": "production"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "RATE_KV",
+      "id": "05c5c01fb0384569864adbb6ea920bf5"
+    }
+  ],
+  "unsafe": {
+    "bindings": [
+      {
+        "name": "RATE_LIMITER",
+        "type": "ratelimit",
+        "namespace_id": "1001",
+        "simple": {
+          "limit": 30,
+          "period": 60
+        }
+      }
+    ]
+  }
+}

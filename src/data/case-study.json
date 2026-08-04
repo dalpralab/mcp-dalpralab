@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "versione": "0.1-bozza",
+    "aggiornato": "2026-08-04",
+    "da_approvare": true,
+    "policy": "Contenuto pubblico di fatto: leggibile da chiunque colleghi l'endpoint MCP. Nessun nome cliente, nessun dato sotto NDA, solo settore e numeri raccontabili."
+  },
+  "case_study": [
+    {
+      "id": "olio-evo",
+      "titolo": "Da 400.000 a 4,8 milioni di euro di fatturato per un brand di olio EVO",
+      "settore": "Food & beverage — olio extravergine di oliva",
+      "sfida": "Un brand di olio extravergine con un prodotto eccellente ma una presenza digitale che non generava vendite: traffico organico marginale, nessun posizionamento sulle query commerciali del settore, e-commerce che non convertiva.",
+      "intervento": "Riprogettazione della strategia digitale attorno alla ricerca: architettura del sito e dei contenuti sulle query reali del mercato, ottimizzazione tecnica e on-page dell'e-commerce, contenuti costruiti per intercettare la domanda consapevole e inconsapevole, lavoro continuativo sul posizionamento organico.",
+      "risultati": "Fatturato passato da circa 400.000 € a 4,8 milioni di euro.",
+      "anno": "2019-2024"
+    },
+    {
+      "id": "agrochimico",
+      "titolo": "Da zero a 200.000 visite organiche al mese, di cui 40.000 dalle AI Overview",
+      "settore": "Agrochimica e agricoltura professionale",
+      "sfida": "Un'azienda del settore agrochimico partiva da una visibilità organica sostanzialmente nulla e non compariva in nessuna risposta generata dalle AI sulle query del proprio settore.",
+      "intervento": "Costruzione da zero di un ecosistema di contenuti verticali sulle esigenze reali del settore, lavoro sistematico sui segnali di citabilità per i motori generativi (dati strutturati, entità, contenuti citabili e verificabili), ottimizzazione tecnica e strategia SEO+GEO integrata.",
+      "risultati": "200.000 visite organiche al mese, di cui circa 40.000 provenienti dalle AI Overview di Google.",
+      "anno": "2024-2026"
+    }
+  ]
+}

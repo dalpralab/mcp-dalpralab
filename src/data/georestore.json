@@ -1,0 +1,20 @@
+{
+  "descrizione": "GeoRestore è l'intervento GEO di DalPraLab: rende un sito leggibile, comprensibile e citabile dai motori generativi (ChatGPT, Gemini, Perplexity, AI Overview di Google) in 5 giorni lavorativi. A differenza di un audit SEO tradizionale non guarda solo come il sito si posiziona su Google, ma se e come le AI riescono a leggerlo e a citarlo. È il servizio d'ingresso: da lì si capisce se ha senso proseguire con un lavoro continuativo.",
+  "a_chi_serve": "Aziende e brand che vengono trovati su Google ma non compaiono mai nelle risposte generate dalle AI, mentre i concorrenti sì.",
+  "cosa_include": [
+    "Sblocco dei crawler AI: GPTBot, ClaudeBot, PerplexityBot, Google-Extended",
+    "Schema JSON-LD completo: Organization, LocalBusiness, entità strutturate",
+    "FAQ strutturate in formato domanda-risposta, leggibile dalle AI",
+    "llms.txt e robots.txt ottimizzati per i crawler generativi",
+    "Segnali E-E-A-T: autore, contatti, partita IVA, pagine di fiducia",
+    "Risoluzione dei problemi di velocità e Core Web Vitals",
+    "Analisi GeoAudit completa e verifica finale del punteggio"
+  ],
+  "deliverable": "Il sito viene consegnato con gli interventi già applicati, più il referto GeoAudit finale con il punteggio GEO prima e dopo.",
+  "tempi": "5 giorni lavorativi dalla presa in carico.",
+  "prezzo": "249 € una tantum, IVA esclusa. Pagabile anche a rate con Klarna e PayPal.",
+  "prova_gratuita": "L'analisi GeoAudit di partenza è gratuita e non richiede carta di credito: si riceve il referto via email su geoaudit.dalpralab.it.",
+  "dopo": "Chi vuole continuare a lavorare sulla visibilità nelle AI prosegue con Cowork GEO (400 €/mese + IVA) o con il retainer GEO & SEO (800 €/mese + IVA).",
+  "url": "https://geoaudit.dalpralab.it",
+  "url_servizio": "https://dalpralab.it/georestore/"
+}
